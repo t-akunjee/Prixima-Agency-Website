@@ -4,8 +4,8 @@ body{
     line-height: 1.7;
     color:#516171;
 }
-h1,h2,h3,h4,h5,h6{
-    font-weight: 700;
+h1,h2,h3,h4{
+    font-weight: 700px !important;
     color:#092032;
 }
 a{
@@ -16,6 +16,11 @@ a{
 }
 img{
     width: 100%;
+}
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+    background-position: center !important;
 }
 
 /* Navbar */
@@ -80,4 +85,37 @@ img{
 .btn-brand:hover{
     color:black;
     background-color: #ff4d29;
+}
+
+/* SLIDER */
+.slide1{
+    background: linear-gradient(rgba(9, 32, 50, 0.4),rgba(9, 32, 50, 0.3)), url(../img/bg_banner1.jpg);
+}
+.slide2{
+    background: linear-gradient(rgba(9, 32, 50, 0.4),rgba(9, 32, 50, 0.3)), url(../img/bg_banner2.jpg);
+}
+.display-3{
+    font-weight: 700;
+    line-height: 1.2em;
+}
+
+/* OWL-CAROUSEL */
+.owl-prev,
+.owl-next{
+    position:absolute;
+    top:50%;
+    width:60px !important;
+    height: 60px !important;
+    display: grid;
+    place-items:center;
+    background-color: rgba(238, 243, 244, 0.916);
+    color:#fff;
+    font-size: 32px !important;
+    margin-top: -30px;
+}
+.owl-prev{
+    left:0;
+}
+.owl-next{
+    right:0;
 }
