@@ -12,6 +12,7 @@ a{
     color:#092032;
     text-decoration: none;
     transition: all 0.4s ease;
+    font-weight: 500;
 }
 img{
     width: 100%;
@@ -49,4 +50,34 @@ img{
 .social-links a:hover{
     background-color: #fff;
     color: #ff4d29;
+}
+.navbar{
+    box-shadow:var(--shadow);
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:active{
+    color:#ff4d29;
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 26px;
+    color:#092032;
+}
+.navbar-brand span{
+    color:#ff4d29;
+}
+
+/* BTN */
+.btn{
+    padding: 9px 24px;
+    font-weight: 500;
+}
+.btn-brand{
+    background-color: #ff4d29;
+    color: #fff;
+    border-color:#ff4d29;
+}
+.btn-brand:hover{
+    color:black;
+    background-color: #ff4d29;
 }
